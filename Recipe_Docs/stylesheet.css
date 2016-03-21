@@ -1,0 +1,309 @@
+/* Applications for entire pages */
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+ }
+
+.wrapper-top {
+    height: 630px;
+    width: 960px;
+}
+
+.wrapper-mid {
+    height: 1070px;
+    width: 960px;
+    border-bottom: 1px solid #FF8C00;
+}
+
+.wrapper-bottom {
+	text-align: center;
+}
+
+/* Header applications */
+.header-image {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #FF8C00;
+    padding-bottom: 10px;
+}
+
+ .header img {
+ 	width: 500px;
+ 	height: 60px;
+ }
+
+
+/* Navigation applications */
+.header li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-left: 57px;
+}
+
+.header ul {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: Sail, Cursive;
+    letter-spacing: 1.3px;
+    border-bottom: 1px solid #FF8C00;
+    padding-bottom: 5px;
+    padding-top: -20px;
+    margin-top: 0px;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #6B4226;
+}
+
+.nav-pills li a:hover {
+    border: 1px solid #6B4226;
+    text-align: center;
+    padding: 3px;
+    background-color: #6B4226;
+    color: #FFFFF0;
+}
+
+.nav-pills li.active a {
+    border: 1px solid #6B4226;
+    text-align: center;
+    padding: 3px;
+    background-color: #6B4226;
+    color: #FFFFF0;
+}
+
+/* Banner images applications */
+#banner-images img {
+    width: 700px;
+    height: 300px;
+    margin-left: 137px;
+    border-radius: 1px;
+}
+
+#banner-images div {
+    position: absolute;
+    z-index: 0;
+    /*top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: block;*/
+}
+
+#banner-images div.previous {
+    z-index: 1;
+}
+#banner-images div.current {
+    z-index: 2;
+}
+
+
+/* Ingredients applications */
+.ingredients .row {
+    position: relative;
+	float: left;
+	display: inline;
+    margin-top: 300px;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+#left-table {
+    margin-left: 215px;
+}
+
+#right-table {
+    margin-left: 125px;
+}
+
+h2 span {
+    text-align: center;
+    font-family: Sail, cursive;
+    color: #556B2F;
+    letter-spacing: 1.2px;
+}
+
+.ingredients li {
+    color: #8B2323;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.ingredients a {
+	text-decoration: none;
+	color: #8B2323
+}
+
+.ingredients a:hover {
+	font-weight: bold;
+	color: #333333;
+}
+
+/* Image instructions applications */
+.heading {
+    float: left;
+    clear: both;
+}
+
+.main table {
+	margin-top: 90px;
+	table-layout: fixed; 
+	width: 70%;
+}
+
+.img-fixed {
+	width: 200px;
+	height: 200px;
+}
+
+.txt-fixed {
+	width: 80px;
+	height: 20px;
+}
+
+.heading h3 {
+    padding-right: 80px;
+    padding-left: 75px;
+    color: #333333;
+    font-family: Cursive;
+    margin-top: 5px;
+    padding-top: 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-top: 1px solid #FF8C00;
+}
+
+.heading p {
+	margin-top: -13px;
+	margin-left: 325px;
+	font-family: Sail;
+	font-size: 0.8em;
+	color: #333333;
+}
+
+.container h5 {
+	margin-left: 35px;
+	margin-top: -10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 100px;
+    border: 1px solid #333333;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+
+h5 #button {
+	margin-top: 50px;
+}
+
+.main img {
+    height: 160px;
+    width: 160px;
+    border-radius: 5%;
+    overflow: hidden;
+    margin: 10px 5px 20px 5px;
+    padding: 3px;
+    border: 1px solid #FF8C00;
+}
+
+.steps a {
+    text-decoration: none;
+    color: #333333;
+}
+
+
+/* Text instructions applications */
+table {
+	position: absolute;
+	margin-top: 90px;
+	font-size: 0.7em;
+}
+
+td p {
+	position: absolute;
+	padding-top: 60px;
+	padding-left: 50px;
+}
+
+.step {
+	width: 160px;
+	height: 160px;
+	padding-left: 5px;
+}
+
+.step-adjust {
+	width: 160px;
+	height: 160px;
+	padding-left: 19px;
+	margin-top: 5px;
+}
+
+.spacer {
+	padding-bottom: 50px;
+}
+
+/* Membership applications*/
+.membership {
+  	padding-bottom: 40px;
+  	border-bottom: 1px solid #FF8C00;
+}
+
+.membership h3 {
+  	padding: 10px 0 10px 0;
+  	color: #333333;
+    font-family: Sail;
+    letter-spacing: 1.2px;
+}
+
+.form-control {
+  	border-radius: 15px;
+  	border: 1px solid #8B2323;
+  	width: 600px;
+  	margin-left: 5px;
+  	margin-bottom: 10px;
+}
+
+.btn {
+  	margin-top: 50px;
+  	border-radius: 15px;
+  	background-color: none;
+}
+
+.btn:hover {
+  	color: #FFFFF0;
+  	background-color: #8B2323;
+}
+
+#register-form .form-group label.error {
+    color: #8B2323;
+    font-family: Sail;
+    display: inline-block;
+    margin: 4px 0 5px 10px;
+    text-align: left;
+    width: 220px;
+}
+
+/* Footer applications */
+.footer p {
+	float: left;
+	width: 33%;
+	font-family: Sail, Cursive;
+	font-size: 0.7em;
+	letter-spacing: 1.2px;
+}
+
+.a-right {
+	text-align: right;
+}
